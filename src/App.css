@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #020631;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  position: absolute;
+  top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 50%;
+  transform: translate(-50%, -10%); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mainHeading {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app h1,
+h2 {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+input {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.fa-plus {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 10px;
+}
+.container {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  height: auto;
+  background-color: #020631;
+}
+.fa-trash{
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+  margin-left: 5px;
+}
+.inputtwo {
+  top: -30px;
+  left: 30px;
+  font-weight: bold;
+}
+.remove {
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border: solid 1px blue;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.removebtn {
+  width: 90%;
+  
+}
+.remove:hover {
+  color: white;
+  background-color: blue;
+}
+#secondinput:hover {
+  color: white;
+  background-color: blue;
 }
