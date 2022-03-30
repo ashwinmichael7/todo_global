@@ -43,7 +43,7 @@ function Todo() {
         </div>
         <div className="subHeading">
           <br />
-          <h2>Whoop, it&apos;s {weekDay[day]} 🌝 ☕ </h2>
+          <h2>Yeahh it&apos;s {weekDay[day]} 🌝 ☕ </h2>
         </div>
         <div className="input">
           <input
