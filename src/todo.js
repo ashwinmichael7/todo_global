@@ -20,19 +20,19 @@ function Todo() {
   const [todo, setTodo] = useState("");
   const { input, setInput } = useContext(TodoInput);
   const addTodo = () => {
-    setInput([...input, {
-      id: date.toLocaleString(),
-      todo: todo
-    }]);
+    setInput([
+      ...input,
+      {
+        id: date.toLocaleString(),
+        todo: todo,
+      },
+    ]);
 
     setTodo("");
   };
   const remove = (obj) => {
-   
-
     const newTodo = input.filter((e) => e.id !== obj.id);
     setInput(newTodo);
-    
   };
 
   return (
@@ -43,7 +43,7 @@ function Todo() {
         </div>
         <div className="subHeading">
           <br />
-          <h2>Whoop, it's {weekDay[day]} 🌝 ☕ </h2>
+          <h2>Whoop, it&apos;s {weekDay[day]} 🌝 ☕ </h2>
         </div>
         <div className="input">
           <input

@@ -54,12 +54,15 @@ input {
   margin-right: 7px;
   margin-top: 10px;
 }
+h2{
+  font-size: 22px;
+}
 .container {
   padding: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 310px;
+  width: 320px;
   height: auto;
   background-color: #020631;
 }
@@ -84,6 +87,7 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 .removebtn {
   width: 90%;
@@ -91,9 +95,13 @@ input {
 }
 .remove:hover {
   color: white;
-  background-color: blue;
+  background-color: rgb(16, 51, 97);
 }
 #secondinput:hover {
   color: white;
-  background-color: blue;
+  background-color: rgb(0, 162, 255);
+}
+.fa-trash:hover{
+  color: rgb(111, 6, 248);
+
 }
